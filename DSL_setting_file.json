@@ -1,0 +1,25 @@
+{
+  "clawler":{
+    "開始URL":"https://www.otaru-uc.ac.jp/hkyomu1/kyomu_site/syllabus2019/01_.html",
+    "リンク抽出セレクタ":["body > table.normal > tr > td > a"]
+  },
+  "scraper":{
+    "大学名":"小樽商科大学",
+    "講義名抽出セレクタ":"#tabs-1 > table > tr:nth-child(1) > td",
+    "講義内容1":{
+      "項目名":"授業の目的・方法",
+      "項目名抽出セレクタ":"#tabs-2 > table > tr:nth-child(2) > th",
+      "内容抽出セレクタ":"#tabs-2 > table > tr:nth-child(2) > td"
+    },
+    "講義内容2":{
+      "項目名":"授業内容",
+      "項目名抽出セレクタ":"#tabs-2 > table > tr:nth-child(4) > th",
+      "内容抽出セレクタ":"#tabs-2 > table > tr:nth-child(4) > td"
+    },
+    "講義内容3":{
+      "項目名":"達成目標",
+      "項目名抽出セレクタ":"#tabs-2 > table > tr:nth-child(3) > th",
+      "内容抽出セレクタ":"#tabs-2 > table > tr:nth-child(3) > td"
+    }
+  }
+}
