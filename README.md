@@ -11,4 +11,3 @@ test
 	-bs4(beautifulsoup4  4.9.3)
 	-requests  2.24.0
 	-lxml  4.6.0
- 
