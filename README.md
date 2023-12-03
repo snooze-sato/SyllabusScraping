@@ -5,9 +5,10 @@
 	・プロセッサ 
 	・40GB
 	・Python3.8.5
-	-test2
+test
 	
 【ライブラリ】
 	-bs4(beautifulsoup4  4.9.3)
 	-requests  2.24.0
 	-lxml  4.6.0
+ 
