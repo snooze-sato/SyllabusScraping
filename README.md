@@ -15,3 +15,4 @@ test5
 	-lxml  4.6.0
 test2
 test3
+test6
