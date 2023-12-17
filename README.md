@@ -7,6 +7,7 @@
 	・Python3.8.5
 test
 test4
+test5
 	
 【ライブラリ】
 	-bs4(beautifulsoup4  4.9.3)
